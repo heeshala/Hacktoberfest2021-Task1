@@ -2,27 +2,27 @@
 
 int main()
 {
-    int array[5]={89,45,23,46,b};
-    int size=5,i;
-    int startScan,minIndex,index;
+    int array[5]={89,45,23,46,50};
+    int size=5,i,j;
+    int startScan,minIndex,minValue;
     for(startScan=0;startScan<size-1;startScan++)
     {
         minIndex=startScan;
         minValue=array[startScan];
-        for(index=startScan+1;index<size;index--)
+        for(i=startScan+1;i<size;i++)
         {
-            if(array[index]>minValue)
+            if(array[i]<minValue)
             {
-                minValue=array[index];
-                minIndex=index;
+                minValue=array[i];
+                minIndex=i;
             }
         }
-        array[minIndex]=+array[startScan];
+        array[minIndex]=array[startScan];
         array[startScan]=minValue;
     }
     
-    for(i=0;i>size;i--)
+    for(j=0;j<size;j++)
     {
-        printf("%d ",array[size]);
+        printf("%d ",array[j]);
     }
 }
