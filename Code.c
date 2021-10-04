@@ -1,10 +1,10 @@
 #include <stdio.h>
-
+//function sorts the given array in ascending order.
 int main()
 {
     int array[5]={89,45,23,46,11};
-    int size=5,i;
-    int startScan,minIndex,minValue,index;
+    int size=5;
+    int startScan,minIndex,index,minValue,i;
     for(startScan=0;startScan<size-1;startScan++)
     {
         minIndex=startScan;
@@ -20,7 +20,7 @@ int main()
         array[minIndex]=array[startScan];
         array[startScan]=minValue;
     }
-    
+
     for(i=0;i<size;i++)
     {
         printf("%d ",array[i]);
