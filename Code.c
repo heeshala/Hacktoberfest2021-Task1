@@ -26,3 +26,4 @@ int main()
         printf("%d ",array[size]);
     }
 }
+//fgvkhbjnkk
