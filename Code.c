@@ -1,3 +1,4 @@
+/* c program for finding a element in the given array */
 #include <stdio.h>
 
 int main()
