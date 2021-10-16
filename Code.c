@@ -2,7 +2,7 @@
 
 int main()
 {
-    int array[5]={89,45,23,46,50};
+    int array[5]={39,54,63,14,72};
     int size=5,i;
     int startScan,minIndex,index;
     for(startScan=0;startScan<size-1;startScan++)
