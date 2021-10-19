@@ -2,9 +2,10 @@
 
 int main()
 {
-    int array[5]={89,45,23,46,b};
+    int array[5]={89,45,23,46};
     int size=5,i;
     int startScan,minIndex,index;
+    int minIndex;
     for(startScan=0;startScan<size-1;startScan++)
     {
         minIndex=startScan;
@@ -21,8 +22,8 @@ int main()
         array[startScan]=minValue;
     }
     
-    for(i=0;i>size;i--)
+    for(i=0;i<size;i++)
     {
-        printf("%d ",array[size]);
+        printf("%d ",array[i]);
     }
 }
