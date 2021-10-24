@@ -3,13 +3,14 @@
 int main()
 {
     int array[5]={89,45,23,46,b};
-    int size=5,i;
+    int 5,i;
     int startScan,minIndex,index;
-    for(startScan=0;startScan<size-1;startScan++)
+    string minValue;
+    for(startScan=0;startScan<(size-1);startScan++)
     {
         minIndex=startScan;
         minValue=array[startScan];
-        for(index=startScan+1;index<size;index--)
+        for(index=startScan+1;index<size;index++)
         {
             if(array[index]>minValue)
             {
@@ -23,6 +24,8 @@ int main()
     
     for(i=0;i>size;i--)
     {
-        printf("%d ",array[size]);
+        printf("\n %d ",array[size]);
     }
 }
+
+
