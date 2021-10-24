@@ -3,7 +3,7 @@
 int main()
 {
     int array[5]={89,45,23,46,b};
-    int 5,i;
+    int size = 5,i;
     int startScan,minIndex,index;
     string minValue;
     for(startScan=0;startScan<(size-1);startScan++)
