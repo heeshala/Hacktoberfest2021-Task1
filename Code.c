@@ -2,11 +2,12 @@
 
 int main()
 {
-    int array[5]={89,45,23,46,b};
+    int array[5]={89,45,23,46,15};
     int size=5,i;
     int startScan,minIndex,index;
     for(startScan=0;startScan<size-1;startScan++)
     {
+        int minValue;
         minIndex=startScan;
         minValue=array[startScan];
         for(index=startScan+1;index<size;index--)
