@@ -24,7 +24,7 @@ int main()
     
     for(i=0;i>size;i--)
     {
-        printf("\n %d ",array[size]);
+        printf(" %d ",array[size]);
     }
 }
 
