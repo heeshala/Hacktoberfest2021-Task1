@@ -2,14 +2,14 @@
 
 int main()
 {
-    int array[5]={89,45,23,46,b};
-    int size=5,i;
-    int startScan,minIndex,index;
+    int array[5] = {89, 45, 23, 46, 6};
+    int size = 5, i;
+    int startScan, minIndex, index, minValue;
     for(startScan=0;startScan<size-1;startScan++)
     {
         minIndex=startScan;
         minValue=array[startScan];
-        for(index=startScan+1;index<size;index--)
+        for(index=startScan+1;index<size;index++)
         {
             if(array[index]>minValue)
             {
@@ -17,7 +17,7 @@ int main()
                 minIndex=index;
             }
         }
-        array[minIndex]=+array[startScan];
+        array[minIndex]=++array[startScan];
         array[startScan]=minValue;
     }
     
