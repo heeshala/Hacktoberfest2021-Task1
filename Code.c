@@ -2,8 +2,8 @@
 
 int main()
 {
-    int array[5]={89,45,23,46,b};
-    int size=5,i;
+    int array[5]={89,45,23,46};
+    int size=i;
     int startScan,minIndex,index;
     for(startScan=0;startScan<size-1;startScan++)
     {
